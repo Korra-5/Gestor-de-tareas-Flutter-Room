@@ -1,0 +1,33 @@
+name: gestor_tareas_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Dependencias para persistencia de datos
+  floor: ^1.4.2
+  sqflite: ^2.3.2
+
+
+  # Para gestión de estados
+  provider: ^6.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+  # Generadores de código para Floor
+  floor_generator: ^1.4.2
+  build_runner: ^2.4.7
+
+flutter:
+  uses-material-design: true
+
+
